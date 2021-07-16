@@ -75,8 +75,8 @@ body {
     transition: all 0.5s ease; }
     a:hover {
       text-decoration: none;
-      color: #0e75b5; }
-  
+      /* color: #0e75b5; } */
+    }
   p, ul, table {
     font-family: "Open Sans", sans-serif;
     line-height: 1.9em; }
@@ -2301,4 +2301,5 @@ p {
     top: 54px;
 }
   
+
 /* dash-ui code */
