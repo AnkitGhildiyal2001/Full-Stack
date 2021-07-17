@@ -2,6 +2,8 @@
 import './navbar.css';
 import React from "react";
 
+import logo from "./logo.png";
+
 import {NavLink} from "react-router-dom";
 
 function NavBar() {
@@ -13,12 +15,13 @@ function NavBar() {
   return (
     <div>
      <div className={click ? "main-container" : ""} onClick={()=>Close()} />
-      <nav className="navbar" onClick={(e)=>e.stopPropagation()}>
+      <nav className="navbar">
         <div className="nav-container">
-          <NavLink exact to="/" className="nav-logo">
-            Site Logo
-            {/* <i className="fa fa-code"></i> */}
-          </NavLink>
+          <span exact to="/" className="nav-logo">
+              COinfo
+          </span>
+          {/* <span className="nav-logo" style={{textAlign:'left'}}>
+          <img className="nav-logo" src={logo} width='12%' alt='...' /> </span> */}
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">

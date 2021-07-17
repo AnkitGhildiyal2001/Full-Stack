@@ -4,9 +4,9 @@ import { CardDeck } from 'react-bootstrap'
 import './Home.css'
 
 import './css/bootstrap.min.css'
-import './css/style.css'
-import NavBar from './navbar.js';
-import Footer from './footer.js';
+// import './css/style.css'
+import NavBar from './navbar/navbar.js';
+import Footer from './footer/footer.js';
 
 const Home = () => {
     return (
@@ -24,7 +24,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <CardDeck className="marg">
+            {/* <CardDeck className="marg">
                 <Card>
                     <Card.Img variant="top" src="holder.js/100px160" />
                     <Card.Body>
@@ -65,9 +65,9 @@ const Home = () => {
                         <small className="text-muted">Last updated 3 mins ago</small>
                     </Card.Footer>
                 </Card>
-            </CardDeck>
+            </CardDeck> */}
 
-            <CardDeck className="marg">
+            {/* <CardDeck className="marg">
                 <Card>
                     <Card.Img variant="top" src="holder.js/100px160" />
                     <Card.Body>
@@ -108,7 +108,22 @@ const Home = () => {
                         <small className="text-muted">Last updated 3 mins ago</small>
                     </Card.Footer>
                 </Card>
-            </CardDeck>
+            </CardDeck> */}
+
+            <div>
+                a<br />
+                a<br />
+                a<br />
+                a<br />
+                a<br />
+                a<br />
+                a<br />
+                a<br />
+                a<br />
+                a<br />
+                a<br />
+                a<br />
+            </div>
 
             <Footer />
         </div>
