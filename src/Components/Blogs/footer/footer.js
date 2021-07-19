@@ -1,20 +1,21 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import './footer.js'
 
 const Footer = () => {
   return (
     <MDBFooter color="blue-grey" className="page-footer font-small lighten-5 pt-0">
-      <div style={{ backgroundColor: "#21d192" }}>
+      <div style={{ backgroundColor: "grey" }}>
         <MDBContainer>
           <MDBRow className="py-4 d-flex align-items-center">
             <MDBCol md="6" lg="5" className="text-center text-md-left mb-4 mb-md-0">
-              <h6 className="mb-0 black-text">
+              <h6 className="mb-0 white-text">
                 Get connected with us on social networks!
               </h6>
             </MDBCol>
-            <MDBCol md="6" lg="7" className="text-center text-md-right">
+            {/* <MDBCol md="6" lg="7" className="text-center text-md-right">
               <a className="fb-ic ml-0">
-                <i className="fab fa-facebook-f black-text mr-lg-4"> </i>
+                <i className="fab fa-facebook-f white-text mr-lg-4"> </i>
               </a>
               <a className="tw-ic">
                 <i className="fab fa-twitter white-text mr-lg-4"> </i>
@@ -28,7 +29,7 @@ const Footer = () => {
               <a className="ins-ic">
                 <i className="fab fa-instagram white-text mr-lg-4"> </i>
               </a>
-            </MDBCol>
+            </MDBCol> */}
           </MDBRow>
         </MDBContainer>
       </div>
@@ -45,7 +46,7 @@ const Footer = () => {
               elit.
             </p>
           </MDBCol>
-          <MDBCol md="2" lg="2" xl="2" className="mb-4 dark-grey-text">
+          {/* <MDBCol md="2" lg="2" xl="2" className="mb-4 dark-grey-text">
             <h6 className="text-uppercase font-weight-bold">
               <strong>Products</strong>
             </h6>
@@ -70,30 +71,30 @@ const Footer = () => {
                 Bootstrap Angular
               </a>
             </p>
-          </MDBCol>
+          </MDBCol> */}
           <MDBCol md="3" lg="2" xl="2" className="mb-4 dark-grey-text">
             <h6 className="text-uppercase font-weight-bold">
               <strong>Useful links</strong>
             </h6>
-            <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
+            <hr className="dark-grey accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
             <p>
-              <a href="#!" className="dark-grey-text">
-                Your Account
+              <a href="/home" className="dark-grey-text">
+                Home
               </a>
             </p>
             <p>
               <a href="#!" className="dark-grey-text">
-                Become an Affiliate
+                About
+              </a>
+            </p>
+            <p>
+              <a href="/blog" className="dark-grey-text">
+                Blogs
               </a>
             </p>
             <p>
               <a href="#!" className="dark-grey-text">
-                Shipping Rates
-              </a>
-            </p>
-            <p>
-              <a href="#!" className="dark-grey-text">
-                Help
+                Contact Us
               </a>
             </p>
           </MDBCol>
@@ -120,7 +121,7 @@ const Footer = () => {
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
           &copy; {new Date().getFullYear()} Copyright:{" "}
-          <span> Aman & Ankit </span>
+          <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
         </MDBContainer>
       </div>
     </MDBFooter>

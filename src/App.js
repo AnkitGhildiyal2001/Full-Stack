@@ -3,6 +3,7 @@ import React from 'react';
 import {HashRouter, Route, Switch} from 'react-router-dom';
 import './App.css';
 import Home from './Components/Home/Home';
+import Blogs from './Components/Blogs/Blogs';
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
 
         <Route path={['/', '/home']} exact component={Home} />
 
-        {/* <Route path="/Continents" component={Continents} /> */}
+        <Route path={['/blog']} exact component={Blogs} />
+
 
 
       </Switch>
