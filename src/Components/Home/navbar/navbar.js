@@ -63,7 +63,7 @@ function NavBar() {
               </NavLink>
             </li>
           </ul>
-          <div className="nav-icon" onClick={handleClick}>
+          <div className="nav-icon-my nav-icon" onClick={handleClick}>
             <i className={click ? "fa fa-times" : "fa fa-bars"}></i>
           </div>
         </div>

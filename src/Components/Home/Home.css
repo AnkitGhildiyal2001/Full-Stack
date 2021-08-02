@@ -35,7 +35,7 @@
 }
   
 p {
-  color: white !important;
+  /* color: white !important; */
   font-weight: 300; }
 
 .class1{
@@ -83,8 +83,21 @@ p {
     text-shadow: 0 0 8px rgba(0, 0, 0, 0.2); }
     .banner .caption h1 {
       font-size: 60px;
-      font-weight: 1000;
+      font-weight: 800;
       font-style: italic; }
+      
+      @media (max-width:550px) 
+      {
+        .banner .caption h1 {
+          font-size: 45px;
+          font-weight: 600;
+          font-style: italic; }
+          .banner .caption p {
+            font-size: 20px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600; }
+      } 
+
     .banner .caption p {
       font-size: 30px;
       font-family: "Montserrat", sans-serif;
@@ -378,3 +391,22 @@ html[dir=rtl] .halfbanner.bg.bg-lightgray.with-bgimg {
 
   
 /* dash-ui code */
+
+.carousel_button{
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    cursor: pointer;
+}
+
+.caro_card{
+    width: 25rem;
+    margin: 20px;
+}
+
+@media (max-width:550px) 
+{
+    .caro_card{
+    width: 15rem;
+    margin: 10px;
+  } 
+} 
