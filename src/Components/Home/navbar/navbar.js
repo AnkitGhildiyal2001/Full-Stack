@@ -37,7 +37,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={click ? handleClick : null}
               >
-                About
+                About Us
               </NavLink>
             </li>
             <li className="nav-item">
@@ -60,6 +60,17 @@ function NavBar() {
                onClick={click ? handleClick : null}
               >
                 Contact Us
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/authentication"
+                activeClassName="active"
+                className="nav-links"
+               onClick={click ? handleClick : null}
+              >
+                Log In/Sign Up
               </NavLink>
             </li>
           </ul>

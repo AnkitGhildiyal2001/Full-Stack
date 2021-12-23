@@ -4,6 +4,9 @@ import { HashRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Home from './Components/Home/Home';
 import Blogs from './Components/Blogs/Blogs';
+import Authentication from './Components/Authentication/Authentication';
+import AboutUs from './Components/AboutUs/AboutUs';
+import ContactUs from './Components/ContactUs/ContactUs';
 
 function App() {
   return (
@@ -33,6 +36,12 @@ function App() {
           <Route path={['/', '/home']} exact component={Home} />
 
           <Route path={['/blog']} exact component={Blogs} />
+
+          <Route path={['/authentication']} exact component={Authentication} />
+
+          <Route path={['/about']} exact component={AboutUs} />
+
+          <Route path={['/contact']} exact component={ContactUs} />
 
           <Route path='/Cases_Increase_Home_carousal' exact component={() => {
             window.location.href = 'https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/first-and-second-waves-of-coronavirus';
