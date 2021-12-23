@@ -401,6 +401,7 @@ html[dir=rtl] .halfbanner.bg.bg-lightgray.with-bgimg {
 .caro_card{
     width: 25rem;
     margin: 20px;
+    height: 29rem;
 }
 
 @media (max-width:550px) 
@@ -408,5 +409,6 @@ html[dir=rtl] .halfbanner.bg.bg-lightgray.with-bgimg {
     .caro_card{
     width: 15rem;
     margin: 10px;
+    height: 32rem;
   } 
 } 

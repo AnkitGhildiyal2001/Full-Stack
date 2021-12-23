@@ -1,6 +1,8 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <MDBFooter color="blue-grey" className="page-footer font-small lighten-5 pt-0">
@@ -14,19 +16,19 @@ const Footer = () => {
             </MDBCol>
             <MDBCol md="6" lg="7" className="text-center text-md-right">
               <a className="fb-ic ml-0">
-                <i className="fab fa-facebook-f black-text mr-lg-4"> </i>
+                <i style={{ margin: '10px' }}><Link to="/blog"><img src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png" width='20px' /></Link></i>
               </a>
               <a className="tw-ic">
-                <i className="fab fa-twitter white-text mr-lg-4"> </i>
+                <i style={{ margin: '10px' }}><Link to="/blog"><img src="https://img-authors.flaticon.com/twitter.jpg" width='20px' /></Link></i>
               </a>
               <a className="gplus-ic">
-                <i className="fab fa-google-plus-g white-text mr-lg-4"> </i>
+                <i style={{ margin: '10px' }}><Link to="/blog"><img src="https://img-authors.flaticon.com/google.jpg" width='20px' /></Link></i>
               </a>
               <a className="li-ic">
-                <i className="fab fa-linkedin-in white-text mr-lg-4"> </i>
+                <i style={{ margin: '10px' }}><Link to="/blog"><img src="https://logodix.com/logo/91001.png" width='20px' /></Link></i>
               </a>
               <a className="ins-ic">
-                <i className="fab fa-instagram white-text mr-lg-4"> </i>
+                <i style={{ margin: '10px' }}><Link to="/blog"><img src="https://facebookbrand.com/wp-content/uploads/2021/03/Instagram_AppIcon_Aug2017.png?w=300&h=300" width='20px' /></Link></i>
               </a>
             </MDBCol>
           </MDBRow>
@@ -36,38 +38,36 @@ const Footer = () => {
         <MDBRow className="mt-3">
           <MDBCol md="3" lg="4" xl="3" className="mb-4 dark-grey-text">
             <h6 className="text-uppercase font-weight-bold">
-              <strong>Company name</strong>
+              <strong>ScumGang</strong>
             </h6>
             <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
             <p>
-              Here you can use rows and columns here to organize your footer
-              content. Lorem ipsum dolor sit amet, consectetur adipisicing
-              elit.
+              This Site was Developed By Aman & Ankit
             </p>
           </MDBCol>
           <MDBCol md="2" lg="2" xl="2" className="mb-4 dark-grey-text">
             <h6 className="text-uppercase font-weight-bold">
-              <strong>Products</strong>
+              <strong>Also Visit</strong>
             </h6>
             <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
             <p>
               <a href="#!" className="dark-grey-text">
-                MDBootstrap
+                worldometers
               </a>
             </p>
             <p>
               <a href="#!" className="dark-grey-text">
-                MDWordPress
+                covid19india
               </a>
             </p>
             <p>
               <a href="#!" className="dark-grey-text">
-                BrandFlow
+                mygov.in
               </a>
             </p>
             <p>
               <a href="#!" className="dark-grey-text">
-                Bootstrap Angular
+                mohfw.gov.in
               </a>
             </p>
           </MDBCol>
@@ -78,22 +78,22 @@ const Footer = () => {
             <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
             <p>
               <a href="#!" className="dark-grey-text">
-                Your Account
+                Home
               </a>
             </p>
             <p>
               <a href="#!" className="dark-grey-text">
-                Become an Affiliate
+                About
               </a>
             </p>
             <p>
               <a href="#!" className="dark-grey-text">
-                Shipping Rates
+                Blog
               </a>
             </p>
             <p>
               <a href="#!" className="dark-grey-text">
-                Help
+                Contact Us
               </a>
             </p>
           </MDBCol>
@@ -103,10 +103,10 @@ const Footer = () => {
             </h6>
             <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
             <p>
-              <i className="fa fa-home mr-3" /> New York, NY 10012, US
+              <i className="fa fa-home mr-3" /> Dehradun, INDIA
             </p>
             <p>
-              <i className="fa fa-envelope mr-3" /> info@example.com
+              <i className="fa fa-envelope mr-3" /> me19b003@iittp.ac.in  ce19b005@iittp.ac.in
             </p>
             <p>
               <i className="fa fa-phone mr-3" /> + 01 234 567 88
